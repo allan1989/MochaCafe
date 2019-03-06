@@ -143,5 +143,18 @@ table {
     position: absolute;
     top: 10px;
     left: -46px; } }
+.logo__heading {
+  padding: 22px; }
+
+.logo__img {
+  width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .logo__heading {
+    text-align: center;
+    padding-top: 10px; }
+
+  .logo__img {
+    width: 37%; } }
 
 /*# sourceMappingURL=main.css.map */
