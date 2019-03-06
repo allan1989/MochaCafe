@@ -316,7 +316,8 @@ table {
 
 @media screen and (min-width: 1200px) {
   .presentation {
-    display: flex; }
+    display: flex;
+    padding-bottom: 35px; }
 
   .presentation__header {
     font-size: 4em; }
@@ -328,7 +329,10 @@ table {
   .presentation__text {
     margin-top: 18px;
     font-size: 1em;
-    text-align: left; } }
+    text-align: left; }
+
+  .presentation__text__second {
+    margin-bottom: 25px; } }
 .infos {
   margin-top: 58px; }
 
@@ -345,5 +349,32 @@ table {
   font-size: 1.448em;
   font-weight: 700;
   text-align: center; }
+
+@media screen and (min-width: 768px) {
+  .infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 90px; } }
+@media screen and (min-width: 1044px) {
+  .infos {
+    justify-content: space-between;
+    margin-top: 24px;
+    padding: 0; }
+
+  .infos__item {
+    width: 31%; }
+
+  .infos__img {
+    height: 230px;
+    transition: transform .2s ease; }
+
+  .infos__link:hover .infos__img {
+    transform: scale(1.1);
+    transition: transform .2s ease; }
+
+  .infos__heading {
+    font-size: 1.2em;
+    padding: 10px 0; } }
 
 /*# sourceMappingURL=main.css.map */

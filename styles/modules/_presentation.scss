@@ -37,6 +37,7 @@
 @media screen and (min-width: 1200px){
   .presentation{
     display: flex;
+    padding-bottom: 35px;
   }
 
   .presentation__header{
@@ -54,5 +55,9 @@
 
     font-size: 1em;
     text-align: left;
+  }
+
+  .presentation__text__second{
+    margin-bottom: 25px;
   }
 }
