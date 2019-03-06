@@ -189,7 +189,8 @@ table {
   right: 0;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  z-index: 1; }
 
 .menu__link {
   color: currentColor;
@@ -238,12 +239,25 @@ table {
 
 @media screen and (min-width: 768px) {
   .intro__wrapper {
-    display: flex; }
+    display: flex;
+    justify-content: space-between; }
+
+  .intro__content {
+    width: 48%; }
 
   .intro__img {
-    height: auto; } }
+    height: 338px; }
+
+  .intro__content--margin {
+    margin-top: 0; } }
 @media screen and (min-width: 1200px) {
   .intro {
-    margin-top: 67px; } }
+    margin-top: 67px; }
+
+  .intro__wrapper {
+    padding: 0 40px; }
+
+  .intro__text {
+    font-size: 1.8em; } }
 
 /*# sourceMappingURL=main.css.map */
