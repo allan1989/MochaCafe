@@ -8,6 +8,7 @@
 
 @import './config/colors';
 @import './config/fonts';
+@import './config/helpers';
 
 // LAYOUT
 
@@ -18,5 +19,6 @@
 
 @import './modules/login';
 @import './modules/hero';
-@import './modules/menu.scss';
+@import './modules/menu';
+@import './modules/intro';
 

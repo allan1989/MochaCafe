@@ -1,0 +1,55 @@
+// INTRO
+
+.intro{
+ 
+}
+
+.intro--section{
+  background-color: $white;
+  padding: 40px 20px;
+}
+
+.intro__wrapper{}
+
+.intro__content{
+  text-align: center;
+  overflow: hidden;
+}
+
+.intro__content--margin{
+  margin-top: 42px;
+}
+
+.intro__img{
+  height: 262px;
+  width: 100%;
+  transform: scale(1.1);
+}
+
+.intro__text{
+  margin-top: 20px;
+  font-family: $Roboto;
+  font-size: 1.374em;
+  font-weight: $Bold;
+}
+
+@media screen and (min-width: 768px){
+
+  .intro__wrapper{
+    display: flex;
+  }
+
+  .intro__img{
+    height: auto;;
+  }
+
+
+}
+
+@media screen and (min-width: 1200px){
+  
+  .intro{
+    margin-top: 67px;
+  }
+
+}

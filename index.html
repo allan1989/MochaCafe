@@ -39,13 +39,13 @@
           </div>
           <!-- / logo -->
           <div class="menu">
-            <nav>
-              <div>Menu <img src="./img/menu-res-icon.png" alt="menu icon"/></div>
-              <ul>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Nos Cafés</a></li>
-                <li><a href="#">Nos Cookies</a></li>
-                <li><a href="#">Art Coffee</a></li>
+            <nav class="menu__wrapper">
+              <div class="menu__responsive__tile js-menu__responsive__tile">Menu <img class="menu__icon" src="./img/menu-res-icon.png" alt="menu icon"/></div>
+              <ul class="menu__links js-menu__links js-hidden">
+                <li><a class="menu__link" href="#">Menu</a></li>
+                <li><a class="menu__link" href="#">Nos Cafés</a></li>
+                <li><a class="menu__link" href="#">Nos Cookies</a></li>
+                <li><a class="menu__link" href="#">ArtCoffee</a></li>
               </ul>
             </nav>
           </div>
@@ -54,48 +54,50 @@
       <!-- header menu -->
     </header>
     <main>
-      <section>
-        <div class="">
-          <div class="">
-            <img src="./img/pic-1.jpg" alt="coffee grains"/>
-            <p>Un café fraichement torréfié</p>
+      <section class="intro container-outer">
+        <div class="container-inner intro--section">
+          <div class="intro__wrapper">
+            <div class="intro__content">
+              <img class="intro__img" src="./img/pic-1.jpg" alt="coffee grains"/>
+              <p class="intro__text">Des Grains de Café exceptionnels</p>
+            </div>
+            <div class="intro__content intro__content--margin">
+              <img class="intro__img" src="./img/pic-7.jpg" alt="cup of hot coffee"/>
+              <p class="intro__text">Nos cafés</p>
+            </div>  
           </div>
-          <div>
-            <img src="./img/pic-2.jpg" alt="cup of hot coffee"/>
-            <p>Nos cafés</p>
-          </div>  
-        </div>
-        <hr/>
-        <div class="">
+          <hr/>
           <div class="">
-            <h2>Buvez un café<br/>d'Exception</h2>
+            <div class="">
+              <h2>Buvez un café<br/>d'Exception</h2>
+            </div>
+            <div class="">
+              <p>Fruits de variétés rares, issus de terroirs d’excellence, magnifiés par des producteurs de haut vol et de fermentations pointues, les Cafés d'Exception
+                vous plongent dans une expérience, d'une intensité extrème.
+              </p>
+              <p>Café de méditation pour leur longueur en bouche, café de dégustation pour leur complexité ou café
+                d'enchantement pour leur histoire.<br/>
+                Les quantiés sont cependant très réduites.
+              </p>
+              <a href="#">Découvrez</a>
+            </div>
           </div>
+          <hr/>
           <div class="">
-            <p>Fruits de variétés rares, issus de terroirs d’excellence, magnifiés par des producteurs de haut vol et de fermentations pointues, les Cafés d'Exception
-              vous plongent dans une expérience, d'une intensité extrème.
-            </p>
-            <p>Café de méditation pour leur longueur en bouche, café de dégustation pour leur complexité ou café
-              d'enchantement pour leur histoire.<br/>
-              Les quantiés sont cependant très réduites.
-            </p>
-            <a href="#">Découvrez</a>
+            <article>
+              <img src="./img/pic-3.jpg" alt="coffee mousse"/>
+              <h3>L'Art du Café</h3>
+            </article>
+            <article>
+              <img src="./img/pic-4.jpg" alt="chocolate cookies"/>
+              <h3>Des Cookies croquants !</h3>
+            </article>
           </div>
-        </div>
-        <hr/>
-        <div class="">
           <article>
-            <img src="./img/pic-3.jpg" alt="coffee mousse"/>
-            <h3>L'Art du Café</h3>
-          </article>
-          <article>
-            <img src="./img/pic-4.jpg" alt="chocolate cookies"/>
-            <h3>Des Cookies croquants !</h3>
+            <img src="./img/pic-5.jpg" alt="group photo of employees"/>
+            <h3>Contactez-nous !</h3>
           </article>
         </div>
-        <article>
-          <img src="./img/pic-5.jpg" alt="group photo of employees"/>
-          <h3>Contactez-nous !</h3>
-        </article>
       </section>
     </main>
     <!-- /main -->
@@ -115,6 +117,7 @@
         </ul>
       </div>
     </footer>
+    <script src="./js/index.js" type="text/javascript"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>
