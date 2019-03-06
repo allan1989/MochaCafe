@@ -79,9 +79,17 @@
 
 @media screen and (min-width: 1200px){
 
+  .login{
+    justify-content: flex-end;
+  }
+
   .login__ad{
     background-color: $brownDark;
     padding-left: 68px;
+  }
+
+  .login__account{
+    margin-left: 184px;
   }
 
   

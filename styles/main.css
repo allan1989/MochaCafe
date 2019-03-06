@@ -153,9 +153,15 @@ table {
   background-color: #553019; }
 
 @media screen and (min-width: 1200px) {
+  .login {
+    justify-content: flex-end; }
+
   .login__ad {
     background-color: #553019;
     padding-left: 68px; }
+
+  .login__account {
+    margin-left: 184px; }
 
   .login__links {
     line-height: 2.6;
