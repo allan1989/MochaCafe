@@ -289,7 +289,7 @@ table {
     margin-top: 26px; } }
 .presentation {
   text-align: center;
-  padding-bottom: 50px; }
+  padding-bottom: 70px; }
 
 .presentation__header {
   font-family: "Roboto Slab", serif;
@@ -329,5 +329,21 @@ table {
     margin-top: 18px;
     font-size: 1em;
     text-align: left; } }
+.infos {
+  margin-top: 58px; }
+
+.infos__item {
+  margin-bottom: 24px; }
+
+.infos__img {
+  height: 272px;
+  width: 100%; }
+
+.infos__heading {
+  padding: 18px 0;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.448em;
+  font-weight: 700;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
