@@ -14,6 +14,9 @@
 
 @import './layout/layout';
 
+// COMMON
+@import './components/buttons';
+
 
 // MODULES
 
@@ -21,4 +24,5 @@
 @import './modules/hero';
 @import './modules/menu';
 @import './modules/intro';
+@import './modules/presentation';
 

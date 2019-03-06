@@ -56,6 +56,9 @@ table {
   visibility: hidden;
   height: 0; }
 
+.separator {
+  margin: 45px 0 36px 0; }
+
 .container-outer {
   background-color: blue; }
 
@@ -74,6 +77,15 @@ table {
 
   .login__button {
     display: none; } }
+.button {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #aa7b51;
+  text-decoration: none;
+  padding: .3em 1.3em; }
+
 .login {
   color: #ffffff;
   font-family: "Roboto Slab", serif; }
@@ -259,5 +271,38 @@ table {
 
   .intro__text {
     font-size: 1.8em; } }
+.presentation {
+  text-align: center; }
+
+.presentation__header {
+  font-family: "Roboto Slab", serif;
+  font-size: 3.5em;
+  font-weight: 700; }
+
+.presentation__heading__strong {
+  color: #aa7b51;
+  font-size: 1.2em; }
+
+.presentation__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 50px; }
+
+.presentation__text__second {
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+@media screen and (min-width: 1200px) {
+  .presentation {
+    display: flex; }
+
+  .presentation__heading {
+    width: 600px; }
+
+  .presentation__text {
+    margin-top: 0;
+    text-align: left; } }
 
 /*# sourceMappingURL=main.css.map */

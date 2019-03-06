@@ -1,0 +1,48 @@
+// PRESENTATION
+
+.presentation{
+  text-align: center;
+}
+
+.presentation__header{
+  font-family: $Roboto;
+  font-size: 3.5em;
+  font-weight: $Bold;
+}
+
+.presentation__heading{}
+
+.presentation__heading__strong{
+  color: $brownMedium;
+  font-size: 1.2em;
+}
+
+.presentation__text{
+  font-family: $OpenSans;
+  font-size: 1.1em;
+  font-weight: $Regular;
+  line-height: 1.2;
+
+  margin-top: 50px;
+}
+
+.presentation__text__second{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1200px){
+  .presentation{
+    display: flex;
+  }
+
+  .presentation__heading{
+    width: 600px;
+  }
+
+  .presentation__text{
+    margin-top: 0;
+
+    text-align: left;
+  }
+}
