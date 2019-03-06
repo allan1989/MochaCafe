@@ -1,13 +1,12 @@
 // LAYOUT
 
 .container-outer{
-  background-color: blue;
+  background-color: $brownLight;
 }
 
 .container-inner{
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 @media screen and (min-width: 1200px){

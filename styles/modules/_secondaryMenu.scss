@@ -1,0 +1,52 @@
+// SECONDARY MENU (FOOTER)
+
+.secondaryMenu{
+  color: $white;
+  background-color: $brownMedium;
+
+  line-height: 2;
+  text-align: center;
+
+  padding: 2em 0;
+}
+
+.secondaryMenu__link{
+  color: currentColor;
+
+  font-family: $Roboto;
+  font-weight: $Regular;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.secondaryMenu__link--copyright{
+  font-size: 1em;
+}
+
+@media screen and (min-width: 1200px){
+
+  .secondaryMenu__wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    width: 690px;
+    margin: 0 auto;
+  }
+
+  .secondaryMenu__wrapper--copyright{
+    display: flex;
+    justify-content: space-between;
+
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 30px;
+
+    font-family: $Roboto;
+    font-weight: $Regular;
+  }
+
+  .secondaryMenu__link:hover{
+    text-decoration: underline;
+  }
+
+}
