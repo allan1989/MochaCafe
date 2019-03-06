@@ -11,3 +11,17 @@
 
   padding: .3em 1.3em;
 }
+
+@media screen and (min-width: 1200px){
+
+  .button{
+    font-size: 1.2em;
+  }
+
+  .button:hover{
+    color: $brownMedium;
+    background-color: $white;
+    border: 1px solid $brownMedium;
+  }
+
+}

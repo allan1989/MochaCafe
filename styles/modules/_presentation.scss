@@ -2,6 +2,7 @@
 
 .presentation{
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .presentation__header{
@@ -10,7 +11,9 @@
   font-weight: $Bold;
 }
 
-.presentation__heading{}
+.presentation__heading{
+  padding-top: 30px;
+}
 
 .presentation__heading__strong{
   color: $brownMedium;
@@ -36,13 +39,20 @@
     display: flex;
   }
 
+  .presentation__header{
+    font-size: 4em;
+  }
+
   .presentation__heading{
+    padding-top: 40px;
+
     width: 600px;
   }
 
   .presentation__text{
-    margin-top: 0;
+    margin-top: 18px;
 
+    font-size: 1em;
     text-align: left;
   }
 }

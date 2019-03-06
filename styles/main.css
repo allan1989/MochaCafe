@@ -57,7 +57,8 @@ table {
   height: 0; }
 
 .separator {
-  margin: 45px 0 36px 0; }
+  margin: 0 auto 0 auto;
+  width: 93%; }
 
 .container-outer {
   background-color: blue; }
@@ -86,6 +87,14 @@ table {
   text-decoration: none;
   padding: .3em 1.3em; }
 
+@media screen and (min-width: 1200px) {
+  .button {
+    font-size: 1.2em; }
+
+  .button:hover {
+    color: #aa7b51;
+    background-color: #ffffff;
+    border: 1px solid #aa7b51; } }
 .login {
   color: #ffffff;
   font-family: "Roboto Slab", serif; }
@@ -231,6 +240,9 @@ table {
   background-color: #ffffff;
   padding: 40px 20px; }
 
+.intro__wrapper {
+  padding: 0 0 45px 0; }
+
 .intro__content {
   text-align: center;
   overflow: hidden; }
@@ -258,7 +270,7 @@ table {
     width: 48%; }
 
   .intro__img {
-    height: 338px; }
+    height: 328px; }
 
   .intro__content--margin {
     margin-top: 0; } }
@@ -267,17 +279,25 @@ table {
     margin-top: 67px; }
 
   .intro__wrapper {
-    padding: 0 40px; }
+    padding: 0 40px 20px 0; }
+
+  .intro--section {
+    padding: 58px 20px; }
 
   .intro__text {
-    font-size: 1.8em; } }
+    font-size: 1.8em;
+    margin-top: 26px; } }
 .presentation {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 50px; }
 
 .presentation__header {
   font-family: "Roboto Slab", serif;
   font-size: 3.5em;
   font-weight: 700; }
+
+.presentation__heading {
+  padding-top: 30px; }
 
 .presentation__heading__strong {
   color: #aa7b51;
@@ -298,11 +318,16 @@ table {
   .presentation {
     display: flex; }
 
+  .presentation__header {
+    font-size: 4em; }
+
   .presentation__heading {
+    padding-top: 40px;
     width: 600px; }
 
   .presentation__text {
-    margin-top: 0;
+    margin-top: 18px;
+    font-size: 1em;
     text-align: left; } }
 
 /*# sourceMappingURL=main.css.map */
