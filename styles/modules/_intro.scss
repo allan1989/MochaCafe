@@ -21,7 +21,8 @@
 .intro__img{
   height: 262px;
   width: 100%;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .intro__text{
@@ -35,8 +36,12 @@
 @media screen and (min-width: 768px){
 
   .intro__wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   .intro__content{
@@ -71,6 +76,4 @@
   .intro__text{
     font-size: 1.8em;
   }
-
-
 }

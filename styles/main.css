@@ -262,6 +262,7 @@ table {
 .intro__img {
   height: 262px;
   width: 100%;
+  -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
 .intro__text {
@@ -272,7 +273,11 @@ table {
 
 @media screen and (min-width: 768px) {
   .intro__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between; }
 
   .intro__content {
