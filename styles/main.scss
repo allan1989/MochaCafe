@@ -1,25 +1,22 @@
 // BASE
-
 @import './base/reset';
 
 
-
 // CONFIG
-
 @import './config/colors';
 @import './config/fonts';
 @import './config/helpers';
 
-// LAYOUT
 
+// LAYOUT
 @import './layout/layout';
+
 
 // COMMON
 @import './components/buttons';
 
 
 // MODULES
-
 @import './modules/login';
 @import './modules/hero';
 @import './modules/menu';
