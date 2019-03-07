@@ -261,10 +261,10 @@ table {
   transform: scale(1.1); }
 
 .intro__text {
-  margin-top: 20px;
   font-family: "Roboto Slab", serif;
   font-size: 1.374em;
-  font-weight: 700; }
+  font-weight: 700;
+  padding: 22px 0 6px 0; }
 
 @media screen and (min-width: 768px) {
   .intro__wrapper {
@@ -290,8 +290,7 @@ table {
     padding: 58px 20px 12px 20px; }
 
   .intro__text {
-    font-size: 1.8em;
-    margin-top: 26px; } }
+    font-size: 1.8em; } }
 .presentation {
   text-align: center;
   padding-bottom: 70px; }
