@@ -16,12 +16,14 @@
 
   .button{
     font-size: 1.2em;
+    transition: all .3s ease-in-out;
   }
 
   .button:hover{
     color: $brownMedium;
     background-color: $white;
     border: 1px solid $brownMedium;
+    transition: background-color .3s ease-in-out;
   }
 
 }

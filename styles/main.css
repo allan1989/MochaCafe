@@ -82,12 +82,14 @@ table {
 
 @media screen and (min-width: 1200px) {
   .button {
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    transition: all .3s ease-in-out; }
 
   .button:hover {
     color: #aa7b51;
     background-color: #ffffff;
-    border: 1px solid #aa7b51; } }
+    border: 1px solid #aa7b51;
+    transition: background-color .3s ease-in-out; } }
 .login {
   color: #ffffff;
   font-family: "Roboto Slab", serif; }
