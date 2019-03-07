@@ -349,7 +349,7 @@ table {
   margin-top: 20px;
   margin-bottom: 50px; }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1199px) {
   .presentation {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -370,6 +370,9 @@ table {
 
   .presentation__text__second {
     margin-bottom: 25px; } }
+@media screen and (min-width: 1200px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+  .presentation__text {
+    width: 48%; } }
 .infos {
   margin-top: 58px; }
 

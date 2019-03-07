@@ -34,7 +34,7 @@
   margin-bottom: 50px;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1199px){
   .presentation{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -50,8 +50,6 @@
     padding-top: 40px;
 
     width: 600px;
-
-    
   }
 
   .presentation__text{
@@ -63,5 +61,12 @@
 
   .presentation__text__second{
     margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (-ms-high-contrast: active) and (-ms-high-contrast: none) { 
+  // IE 10 
+  .presentation__text{
+    width: 48%;
   }
 }
