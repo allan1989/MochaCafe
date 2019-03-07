@@ -83,12 +83,14 @@ table {
 @media screen and (min-width: 1200px) {
   .button {
     font-size: 1.2em;
+    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
 
   .button:hover {
     color: #aa7b51;
     background-color: #ffffff;
     border: 1px solid #aa7b51;
+    -webkit-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out; } }
 .login {
   color: #ffffff;

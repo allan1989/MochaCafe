@@ -16,6 +16,7 @@
 
   .button{
     font-size: 1.2em;
+    -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
 
@@ -23,6 +24,7 @@
     color: $brownMedium;
     background-color: $white;
     border: 1px solid $brownMedium;
+    -webkit-transition: background-color .3s ease-in-out;
     transition: background-color .3s ease-in-out;
   }
 
