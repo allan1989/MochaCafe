@@ -9,7 +9,9 @@
 .login__links{
   display: flex;
   justify-content: space-between;
+
   line-height: 3.5;
+
   width: 224px;
   margin: 0 auto;
 }
@@ -49,6 +51,7 @@
   position: absolute;
   top: 0;
   right: 0px;
+
   height: 27px;
 }
 
@@ -80,6 +83,7 @@
 @media screen and (min-width: 1200px){
 
   .login{
+    display: flex;
     justify-content: flex-end;
   }
 
@@ -89,7 +93,8 @@
   }
 
   .login__account{
-    margin-left: 184px;
+    margin-left: 126px;
+    padding-right: 58px;
   }
 
   
@@ -106,9 +111,12 @@
     position: absolute;
     top: 10px;
     left: -46px;
-
   }
 
-
-
+  .login__button{
+    display: none;
+  }
 }
+
+
+

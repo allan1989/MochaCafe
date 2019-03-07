@@ -69,14 +69,7 @@ table {
 
 @media screen and (min-width: 1200px) {
   .container-outer-login {
-    background-color: #553019; }
-
-  .login {
-    display: flex;
-    justify-content: space-between; }
-
-  .login__button {
-    display: none; } }
+    background-color: #553019; } }
 .button {
   font-family: "Roboto Slab", serif;
   font-size: 1.7em;
@@ -153,6 +146,7 @@ table {
 
 @media screen and (min-width: 1200px) {
   .login {
+    display: flex;
     justify-content: flex-end; }
 
   .login__ad {
@@ -160,7 +154,8 @@ table {
     padding-left: 68px; }
 
   .login__account {
-    margin-left: 184px; }
+    margin-left: 126px;
+    padding-right: 58px; }
 
   .login__links {
     line-height: 2.6;
@@ -172,7 +167,10 @@ table {
   .login__links__cart::before {
     position: absolute;
     top: 10px;
-    left: -46px; } }
+    left: -46px; }
+
+  .login__button {
+    display: none; } }
 .logo__heading {
   padding: 22px; }
 
