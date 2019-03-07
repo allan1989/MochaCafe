@@ -173,7 +173,8 @@ table {
   .login__button {
     display: none; } }
 .logo__heading {
-  padding: 22px; }
+  padding: 22px;
+  background-color: #ffffff; }
 
 .logo__img {
   width: 100%; }
