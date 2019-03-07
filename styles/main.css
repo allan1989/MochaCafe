@@ -58,7 +58,6 @@ table {
 
 .separator {
   margin: 0 auto 0 auto;
-  width: 93%;
   color: #f3f3f3; }
 
 .container-outer {
@@ -82,7 +81,7 @@ table {
 
 @media screen and (min-width: 1200px) {
   .button {
-    font-size: 1.2em;
+    font-size: 1.34em;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
 
@@ -140,7 +139,7 @@ table {
   position: relative;
   padding: 15px;
   background-color: #aa7b51;
-  font-size: 1em;
+  font-size: 0.980em;
   font-weight: 700;
   line-height: 1.1; }
 
@@ -166,7 +165,8 @@ table {
 
   .login__ad {
     background-color: #553019;
-    padding-left: 68px; }
+    padding-left: 68px;
+    font-size: 1em; }
 
   .login__account {
     margin-left: 126px;
@@ -289,7 +289,7 @@ table {
 
 .intro__text {
   font-family: "Roboto Slab", serif;
-  font-size: 1.374em;
+  font-size: 1.336em;
   font-weight: 700;
   padding: 22px 0 6px 0; }
 
@@ -315,20 +315,20 @@ table {
     padding-top: 67px; }
 
   .intro__wrapper {
-    padding: 0 40px 20px 0; }
+    padding: 0 0 20px 0; }
 
   .intro--section {
-    padding: 58px 20px 12px 20px; }
+    padding: 58px 40px 12px; }
 
   .intro__text {
-    font-size: 1.8em; } }
+    font-size: 1.688em; } }
 .presentation {
   text-align: center;
   padding-bottom: 70px; }
 
 .presentation__header {
   font-family: "Roboto Slab", serif;
-  font-size: 3.5em;
+  font-size: 3.4em;
   font-weight: 700; }
 
 .presentation__heading {
@@ -340,7 +340,7 @@ table {
 
 .presentation__text {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.1em;
+  font-size: 1.125em;
   font-weight: 400;
   line-height: 1.2;
   margin-top: 50px; }
@@ -357,7 +357,7 @@ table {
     padding-bottom: 35px; }
 
   .presentation__header {
-    font-size: 4em; }
+    font-size: 3.9em; }
 
   .presentation__heading {
     padding-top: 40px;
@@ -365,7 +365,7 @@ table {
 
   .presentation__text {
     margin-top: 18px;
-    font-size: 1em;
+    font-size: 0.938em;
     text-align: left; }
 
   .presentation__text__second {
@@ -425,7 +425,7 @@ table {
     transition: transform .2s ease, -webkit-transform .2s ease; }
 
   .infos__heading {
-    font-size: 1.2em;
+    font-size: 1.179em;
     padding: 10px 0; } }
 .secondaryMenu {
   color: #ffffff;

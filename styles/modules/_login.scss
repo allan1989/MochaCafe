@@ -67,7 +67,7 @@
 
   background-color: $brownMedium;
 
-  font-size: 1em;
+  font-size: 0.980em;
   font-weight: $Bold;
   line-height: 1.1;
 }
@@ -100,6 +100,8 @@
   .login__ad{
     background-color: $brownDark;
     padding-left: 68px;
+
+    font-size: 1em;
   }
 
   .login__account{

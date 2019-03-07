@@ -7,7 +7,7 @@
 
 .presentation__header{
   font-family: $Roboto;
-  font-size: 3.5em;
+  font-size: 3.4em;
   font-weight: $Bold;
 }
 
@@ -22,7 +22,7 @@
 
 .presentation__text{
   font-family: $OpenSans;
-  font-size: 1.1em;
+  font-size: 1.125em;
   font-weight: $Regular;
   line-height: 1.2;
 
@@ -43,19 +43,21 @@
   }
 
   .presentation__header{
-    font-size: 4em;
+    font-size: 3.9em;
   }
 
   .presentation__heading{
     padding-top: 40px;
 
     width: 600px;
+
+    
   }
 
   .presentation__text{
     margin-top: 18px;
 
-    font-size: 1em;
+    font-size: 0.938em;
     text-align: left;
   }
 
