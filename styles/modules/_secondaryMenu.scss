@@ -26,16 +26,24 @@
 @media screen and (min-width: 1200px){
 
   .secondaryMenu__wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 
     width: 690px;
     margin: 0 auto;
   }
 
   .secondaryMenu__wrapper--copyright{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 
     width: 350px;
     margin: 0 auto;
