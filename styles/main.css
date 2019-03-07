@@ -280,7 +280,7 @@ table {
     margin-top: 0; } }
 @media screen and (min-width: 1200px) {
   .intro {
-    margin-top: 67px; }
+    padding-top: 67px; }
 
   .intro__wrapper {
     padding: 0 40px 20px 0; }
