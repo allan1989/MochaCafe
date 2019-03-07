@@ -97,7 +97,11 @@ table {
   font-family: "Roboto Slab", serif; }
 
 .login__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   line-height: 3.5;
   width: 224px;
@@ -111,9 +115,11 @@ table {
 .login__links__cart {
   position: relative;
   display: inherit;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
-.login__links__cart::before {
+.login__links__cart:before {
   content: '';
   display: inline-block;
   width: 40px;
@@ -151,7 +157,11 @@ table {
 
 @media screen and (min-width: 1200px) {
   .login {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end; }
 
   .login__ad {
@@ -169,7 +179,7 @@ table {
   .login__link:hover {
     text-decoration: underline; }
 
-  .login__links__cart::before {
+  .login__links__cart:before {
     position: absolute;
     top: 10px;
     left: -46px; }
